@@ -1,0 +1,44 @@
+
+   <students>
+     <student>
+     	<id>1</id>
+        <name> Mark </name>
+        <std>5</std>
+        <gender>Male</gender>
+        <marks>78</marks>
+        <address>22, Isle Street</address>
+     </student>
+     <student>
+     	<id>2</id>
+        <name> John </name>
+        <std>7</std>
+        <gender>Male</gender>
+        <marks>33</marks>
+        <address>5, Vincent Street</address>
+     </student>
+     <student>
+     	<id>3</id>
+        <name> Lucy </name>
+        <std>8</std>
+        <gender>Female</gender>
+        <marks>67</marks>
+        <address>27, Isle Street</address>
+     </student>
+     <student>
+     	<id>4</id>
+        <name> Ryan </name>
+        <std>5</std>
+        <gender>Male</gender>
+        <marks>55</marks>
+        <address>9, Waterloo Street</address>
+     </student>
+     <student>
+     	<id>5</id>
+        <name> Sara </name>
+        <std>3</std>
+        <gender>Female</gender>
+        <marks>89</marks>
+        <address>12, Vincent Street</address>
+     </student>
+     
+   </students>
