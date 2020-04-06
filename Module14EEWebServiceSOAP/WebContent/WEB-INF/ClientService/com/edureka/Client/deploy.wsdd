@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- Use this file to deploy some handlers/chains and services      --><!-- Two ways to do this:                                           --><!--   java org.apache.axis.client.AdminClient deploy.wsdd          --><!--      after the axis server is running                          --><!-- or                                                             --><!--   java org.apache.axis.utils.Admin client|server deploy.wsdd   --><!--      from the same directory that the Axis engine runs         --><deployment xmlns="http://xml.apache.org/axis/wsdd/" xmlns:java="http://xml.apache.org/axis/wsdd/providers/java">
+
+  <!-- Services from ClientService WSDL service -->
+
+  <service name="Client" provider="java:RPC" style="wrapped" use="literal">
+      <parameter name="wsdlTargetNamespace" value="http://Client.edureka.com"/>
+      <parameter name="wsdlServiceElement" value="ClientService"/>
+      <parameter name="schemaQualified" value="http://Client.edureka.com"/>
+      <parameter name="wsdlServicePort" value="Client"/>
+      <parameter name="className" value="com.edureka.Client.Client"/>
+      <parameter name="wsdlPortType" value="Client"/>
+      <parameter name="typeMappingVersion" value="1.2"/>
+      <operation xmlns:operNS="http://Client.edureka.com" xmlns:retNS="http://Client.edureka.com" xmlns:rtns="http://www.w3.org/2001/XMLSchema" name="usdToInr" qname="operNS:usdToInr" returnQName="retNS:usdToInrReturn" returnType="rtns:int" soapAction="">
+        <parameter xmlns:pns="http://Client.edureka.com" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:dollar" type="tns:int"/>
+      </operation>
+      <operation xmlns:operNS="http://Client.edureka.com" xmlns:retNS="http://Client.edureka.com" xmlns:rtns="http://www.w3.org/2001/XMLSchema" name="sayHello" qname="operNS:sayHello" returnQName="retNS:sayHelloReturn" returnType="rtns:string" soapAction="">
+      </operation>
+      <parameter name="allowedMethods" value="usdToInr sayHello"/>
+
+  </service>
+</deployment>
