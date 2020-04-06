@@ -1,14 +1,20 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # settings folder
-/.settings
+.settings
 
 #bin folder
-/bin
+bin
 
-/build
+build
+Servers
+Snapshots
+RemoteSystemsTempFiles
 
 # classpath and project files
 .classpath
 .project
+
+.metadata
+.recommenders
 
