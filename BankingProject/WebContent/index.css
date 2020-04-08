@@ -1,0 +1,66 @@
+body{
+	background: #4caf508c;
+	margin: 20px;
+}
+
+body h2 {
+	text-align: center;
+}
+
+body h4 {
+	text-align: left;
+}
+
+.form_login {
+	text-align: center;
+}
+
+.form label {
+	display: inline-block;
+    width: 75px;
+}
+
+.form input{
+	width: 150px;
+    margin-left: 10px;
+}
+
+.form input[type="submit"]{
+	width: auto;
+    margin-left: 0;
+}
+
+.form textarea {
+	width: 150px;
+    margin-left: 90px;
+}
+
+.form select {
+	padding: 4px;
+	margin-left: 10px;
+}
+
+.main_menu a {
+	display: block;
+	margin: 20px
+}
+
+.form_acc_creation {
+	text-align: left;
+}
+
+.form_trans label {
+	width: 120px;
+}
+
+.form_disp input {
+	margin-right: 30px;
+}
+
+table {
+	border: 1px solid;
+}
+table th,td {
+	border: 1px solid;
+	padding: 5px;
+}
